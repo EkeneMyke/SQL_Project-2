@@ -1,4 +1,5 @@
-#DANNY'S FOODIE-FI
+DANNY'S FOODIE-FI
+
 Subscription based businesses are super popular and Danny realised that there
 was a large gap in the market - he wanted to create a new streaming service that
 only had food related content - something like Netflix but with only
@@ -11,7 +12,8 @@ unlimited on-demand access to exclusive food videos from around the world!
 Danny created Foodie-Fi with a data driven mindset and wanted to ensure all
 future investment decisions and new features were decided using data.
 
-#Plans
+Plans
+
 Customers can choose which plans to join Foodie-Fi when they first sign up.
 
 Basic plan customers have limited access and can only stream their videos and is
@@ -28,3 +30,18 @@ to basic or upgrade to an annual pro plan at any point during the trial.
 When customers cancel their Foodie-Fi service - they will have a churn plan
 record with a null price but their plan will continue until the end of
 the billing period.
+
+Subscriptions
+
+Customer subscriptions show the exact date where their specific plan_id starts.
+
+If customers downgrade from a pro plan or cancel their subscription - the higher
+plan will remain in place until the period is over - the start_date in the
+subscriptions table will reflect the date that the actual plan changes.
+
+When customers upgrade their account from a basic plan to a pro or annual
+pro plan - the higher plan will take effect straightaway.
+
+When customers churn - they will keep their access until the end of their
+current billing period but the start_date will be technically the day they
+decided to cancel their service.
