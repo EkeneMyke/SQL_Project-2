@@ -1,4 +1,4 @@
-DANNY'S FOODIE-FI
+#DANNY'S FOODIE-FI
 
 Subscription based businesses are super popular and Danny realised that there
 was a large gap in the market - he wanted to create a new streaming service that
@@ -12,7 +12,7 @@ unlimited on-demand access to exclusive food videos from around the world!
 Danny created Foodie-Fi with a data driven mindset and wanted to ensure all
 future investment decisions and new features were decided using data.
 
-Plans
+#Plans
 
 Customers can choose which plans to join Foodie-Fi when they first sign up.
 
@@ -31,7 +31,7 @@ When customers cancel their Foodie-Fi service - they will have a churn plan
 record with a null price but their plan will continue until the end of
 the billing period.
 
-Subscriptions
+#Subscriptions
 
 Customer subscriptions show the exact date where their specific plan_id starts.
 
